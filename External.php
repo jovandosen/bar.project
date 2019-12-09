@@ -21,6 +21,8 @@ class Data
 	{
 		$page = $_POST['currentPage'];
 
+		$currentUserCount = $_POST['currentCount'];
+
 		if($page == 1){
 			$start = 0;
 			$end = $this->perPage;
@@ -62,6 +64,8 @@ class Data
 		$details['data'] = $users;
 
 		$details['pageDetail'] = $page;
+
+		$details['usersCountDetail'] = $currentUserCount;
 
 		$details = json_encode($details);
 

@@ -48,10 +48,23 @@ div#data table caption {
 div#data thead {
 	background-color: #999;
 	color: white;
+	width: calc( 100% - 17px );
 }
 
 div#data tbody tr:hover {
 	background-color: lightblue;
 	color: white;
 	transition: 0.3s;
+}
+
+div#data tbody {
+	display: block;
+	max-height: 210px;
+	overflow-y: scroll;
+}
+
+div#data tbody tr, thead {
+	display: table;
+	width: 100%;
+	table-layout: fixed;
 }

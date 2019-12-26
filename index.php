@@ -15,6 +15,7 @@
 				<li><a href="#">LOGIN</a></li>
 				<li><a href="#">SHOP</a></li>
 				<li><a href="#">CONTACT</a></li>
+				<li><a href="include/list.php">LIST</a></li>
 			</ul>
 		</div>
 

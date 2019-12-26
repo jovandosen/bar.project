@@ -1,0 +1,57 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+div#navigation {
+	padding: 10px;
+	background-color: #999;
+}
+
+div#navigation ul li {
+	list-style-type: none;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+div#navigation ul li a {
+	text-decoration: none;
+	color: white;
+}
+
+div#navigation ul li a:hover {
+	color: lightblue;
+	transition: 0.4s;
+}
+
+div#data {
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-top: 50px;
+}
+
+div#data table, td, th {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+div#data td, th {
+	padding: 5px;
+}
+
+div#data table caption {
+	margin-bottom: 5px;
+	font-size: 20px;
+}
+
+div#data thead {
+	background-color: #999;
+	color: white;
+}
+
+div#data tbody tr:hover {
+	background-color: lightblue;
+	color: white;
+	transition: 0.3s;
+}

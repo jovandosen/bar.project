@@ -1,0 +1,18 @@
+div#slide-show-container {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	width: 800px;
+	height: 500px;
+	border: 1px solid black;
+}
+
+.fade {
+	animation-name: test;
+	animation-duration: 3s;
+}
+
+@keyframes test {
+  	from {opacity: .4} 
+  	to {opacity: 1}
+}

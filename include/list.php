@@ -18,6 +18,7 @@
 				<li><a href="#">SHOP</a></li>
 				<li><a href="#">CONTACT</a></li>
 				<li><a href="list.php">LIST</a></li>
+				<li><a href="slide-show.php">SLIDESHOW</a></li>
 			</ul>
 		</div>
 

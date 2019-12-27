@@ -16,3 +16,24 @@ div#slide-show-container {
   	from {opacity: .4} 
   	to {opacity: 1}
 }
+
+div#image-dots {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	width: 180px;
+	height: 30px;
+}
+
+div.dot {
+	width: 15px;
+	height: 15px;
+	float: left;
+	margin-left: 5px;
+	background-color: #bbb;
+	border-radius: 50%;
+}
+
+.active {
+	background-color: #717171 !important;
+}

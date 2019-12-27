@@ -27,6 +27,10 @@
 			<img id="image" src="" width="800px" height="500px" />
 		</div>
 
+		<div id="image-dots">
+			
+		</div>
+
 		<script src="/../assets/js/slide-show.js"></script>
 	</body>
 </html>

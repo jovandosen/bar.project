@@ -9,7 +9,7 @@ div#slide-show-container {
 
 .fade {
 	animation-name: test;
-	animation-duration: 3s;
+	animation-duration: 2s;
 }
 
 @keyframes test {

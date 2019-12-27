@@ -23,7 +23,7 @@
 			</ul>
 		</div>
 
-		<div id="slide-show-container" class="fade">
+		<div id="slide-show-container">
 			<img id="image" src="" width="800px" height="500px" />
 		</div>
 

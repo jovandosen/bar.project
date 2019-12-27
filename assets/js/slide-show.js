@@ -8,18 +8,18 @@ $(document).ready(function(){
 
 function slideShow()
 {
-	var images = ['foo.jpg', 'bar.jpg', 'baz.jpg', 'dev.jpg', 'test.jpg'];
+	var images = ['foo.jpg', 'bar.jpg', 'baz.jpg', 'dev.jpg', 'test.jpg', 'develop.jpg', 'ddd.jpg', 'img_forest.jpg', 'download1.jpg'];
 
 	var imageCount = images.length;
 
-	$("#slide-show-container").css({"display":"none"});
+	$("#image").remove();
 
 	if( interval >= imageCount ){
 		interval = 0;
 	}
 
 	if( interval < imageCount ){
-		$("#slide-show-container").css({"display":"block"});
+		$("#slide-show-container").append('<img id="image" src="" width="800px" height="500px" class="fade" />');
 		$("#image").attr("src", "/../assets/images/" + images[interval]);
 		interval++;
 	} 
